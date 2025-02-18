@@ -6,14 +6,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="icon" href="images/smcclogo.gif" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>SMCC Website</title>
   </head>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <img src="images/smcclogo.gif" alt="smcclogo" width="48">
-      <a class="navbar-brand" href="index.html">Saint Michael College of Caraga</a>
+      <a class="navbar-brand" href="index.html"><img src="images/smcclogo.gif" alt="smcclogo" width="48">Saint Michael College of Caraga</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -30,9 +30,9 @@
             Courses Offered
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">College Courses</a></li>
-              <li><a class="dropdown-item" href="#">Senior High School</a></li>
-              <li><a class="dropdown-item" href="#">Basic Education</a></li>
+              <li><a class="dropdown-item" href="#college">College Courses</a></li>
+              <li><a class="dropdown-item" href="#shs">Senior High School</a></li>
+              <li><a class="dropdown-item" href="#basic">Basic Education</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -116,6 +116,65 @@
                 </ul>
               </div>
             </div>    
+    </div>
+
+    <div class="container pt-5 pb-5" id="courses-offered">
+      <div class="card">
+        <div class="card-header text-center fs-1 fw-bold"><i class="fa-solid fa-hands-holding-circle fa-xl" style="color: #000000;"></i> COURSES OFFERED</div>
+      </div>
+      <div class="container overflow-hidden pt-3 pb-5">
+        <div class="row gx-2">
+          <div class="col" id="college">
+            <div class="p-3 border rounded bg-light">
+              <div class="title text-center p-0"><h2>College</h2><hr></div>
+              <div class="body">
+                <ul class="text-start">
+                  <li><img src="images/cas.webp" alt="cas" width="48">College of Arts and Sciences</li> <hr>
+                  <li><img src="images/cbm.webp" alt="cbm" width="48">College of Business and Management</li><hr>
+                  <li><img src="images/ccis.webp" alt="ccis" width="48">College of Computer and Information Sciences</li><hr>
+                  <li><img src="images/ccje.webp" alt="ccje" width="48">College of Criminal Justice Education</li><hr>
+                  <li><img src="images/cte.webp" alt="cte" width="48">College of Teacher Education</li><hr>
+                  <li><img src="images/cthm.webp" alt="cthm" width="48">College of Tourism & Hospitality Management</li><hr>
+                </ul>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                  <button class="btn btn-dark" type="button"><a href="#">More</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" id="shs">
+            <div class="p-3 border rounded bg-light">
+              <div class="title text-center"><h2>Senior High School</h2> <hr> </div>
+              <div class="body">
+                <ul class="text-center">
+                  <li><img src="images/shs.webp" alt="shs" width="150"></li> <hr>
+                  <li>Academic Track</li><hr>
+                  <li>Technical-Vocational Track</li><hr>
+                </ul>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                  <button class="btn btn-dark" type="button"><a href="#">More</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" id="basic">
+            <div class="p-3 border rounded bg-light">
+              <div class="title text-center"><h2>Basic Education</h2> <hr> </div>
+              <div class="body">
+                <ul class="text-center">
+                  <li>Nursery</li><hr>
+                  <li>Kindergarten</li><hr>
+                  <li><img src="images/elementary.webp" alt="elementary" width="55"> Elementary</li><hr>
+                  <li><img src="images/jhs.webp" alt="jhs" width="55"> Junior High School</li><hr>
+                </ul>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                  <button class="btn btn-dark" type="button"><a href="#">More</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
 

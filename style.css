@@ -7,3 +7,16 @@ a.dropdown-item:hover{
     background-color: rgb(161, 161, 156);
 }
 
+li{
+    list-style: none;
+}
+
+ul{
+    text-indent: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
